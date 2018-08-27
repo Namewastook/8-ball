@@ -1,0 +1,20 @@
+body{
+background-color: black;
+}
+
+#heading{
+color: white;
+}
+
+#question{
+color: white;
+}
+
+#statement{
+    color: white;
+}
+
+#answer{
+    color: red;
+    font-size: 50px;
+}

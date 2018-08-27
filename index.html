@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Magic 8 ball!</title>
+</head>
+<body>
+    <h1 id="heading">Ask the magic 8-ball any question and you will have your answer!</h1>
+    
+    <label id ="question" for="question">Ask your question:</label>
+    <input type="text" id="box">
+    <br>
+    <button id="ask">Ask!</button>
+
+    <p id="answer"></p>
+    <p id="statement">Click below to shake up the magic 8-ball and ask a new question!</p>
+
+    <button type="submit"  onClick="refreshPage()">Shake the magic 8-ball</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
